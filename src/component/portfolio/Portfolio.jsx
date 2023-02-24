@@ -69,7 +69,9 @@ function Portfolio() {
         <li>Design</li>
         <li>Branding</li> */}
         {list.map((item)=>(
-          <PortfolioList  title={item.title}
+          <PortfolioList
+          key={item.id}
+          title={item.title}
           active={selected === item.id}
           id={item.id}
            setSelected={setSelected}/>
