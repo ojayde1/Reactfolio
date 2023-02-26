@@ -36,7 +36,7 @@ function Testimonials() {
     },
   ];
   return (
-    <div className='testimonials' id='testimonials'>
+    <div className='testimonials' id='testimonials' style={{ backgroundColor: "white" }}>
       <h1>Testimonials</h1>
       <div className="container">
          {data.map(data=>(
